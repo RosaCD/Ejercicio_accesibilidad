@@ -113,6 +113,13 @@ img {
 	display :block;
 	font-weight :normal;
 }
+#body .featured h2 {
+	font-family :'Lobster1.4Regular';
+	font-size :36px;
+	color :#1b6568;
+	display :block;
+	font-weight :normal;
+}
 #body .featured p {
 	font-family :'NunitoRegular';
 	font-size :16px;
@@ -175,6 +182,13 @@ img {
 	font-weight :normal;
 	margin-bottom :50px;
 }
+#body #content div div h2 {
+	font-family :'Lobster1.4Regular';
+	font-size :36px;
+	color :#1b6568;
+	font-weight :normal;
+	margin-bottom :50px;
+}
 #body #content div div ul {
 	list-style-type :none;
 	margin :0;
@@ -191,13 +205,13 @@ img {
 	color :#822619;
 	font-weight :normal;
 }
-#body #content div div ul li h2 {
+#body #content div div ul li h3 {
 	font-family :'Lobster1.4Regular';
 	font-size :18px;
 	color :#822619;
 	font-weight :normal;
 }
-#body #content div div ul li h2 a {
+#body #content div div ul li h3 a {
 	font-family :'Lobster1.4Regular';
 	font-size :24px;
 	color :#822619;
@@ -226,7 +240,7 @@ img {
 	color :#822619;
 	font-weight :normal;
 }
-#body #content div div ul li h2 a:hover {
+#body #content div div ul li h3 a:hover {
 	color :#80210b;
 }
 #body .content div div form label {
@@ -317,6 +331,12 @@ img {
 	color :#1b6568;
 	font-weight :normal;
 }
+#body .content div div h2 {
+	font-family :'Lobster1.4Regular';
+	font-size :36px;
+	color :#1b6568;
+	font-weight :normal;
+}
 #body .content div div ul {
 	list-style-type :none;
 	margin :0;
@@ -336,7 +356,7 @@ img {
 #body .content div div ul li.last {
 	border :none;
 }
-#body .content div div ul li h2 a {
+#body .content div div ul li h3 a {
 	font-family :'Lobster1.4Regular';
 	font-size :24px;
 	color :#822619;
@@ -535,7 +555,7 @@ img {
 	margin :0 20px 0 0;
 	float :left;
 }
-#body div#section div.section div div h2 {
+#body div#section div.section div div h3 {
 	font-family :'LimelightRegular';
 	color :#1b6568;
 	font-size :28px;
@@ -545,7 +565,7 @@ img {
 	text-transform :uppercase;
 	width :auto;
 }
-#body div#section div.section div div h2 a {
+#body div#section div.section div div h3 a {
 	font-family :'LimelightRegular';
 	color :#822619;
 	font-size :28px;
@@ -553,7 +573,7 @@ img {
 	text-decoration :none;
 	line-height :30px;
 }
-#body div#section div.section div div h2 a:hover {
+#body div#section div.section div div h3 a:hover {
 	color :#1b6568;
 	text-decoration :none;
 }
