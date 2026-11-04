@@ -70,16 +70,22 @@
 			<ul>
 				<li class="first">
 					<h2>Delivery Hotline</h2>
-					<h3>Call 0-123-456-789</h3>
+					<p class="phone">Call 0-123-456-789</p>
 					<ul>
 						<li>
-							<a href="http://www.freewebsitetemplates.com/go/facebook" class="facebook"></a>
+							<a href="http://www.freewebsitetemplates.com/go/facebook" class="facebook"
+							aria-label="Facebook">
+                            <span class="visually-hidden">Facebook</span></a>
 						</li>
 						<li>
-							<a href="http://www.freewebsitetemplates.com/go/twitter" class="twitter"></a>
+							<a href="http://www.freewebsitetemplates.com/go/twitter" class="twitter"
+							aria-label="Twitter">
+                            <span class="visually-hidden">Twitter</span></a>
 						</li>
 						<li>
-							<a href="http://www.freewebsitetemplates.com/go/googleplus" class="googleplus"></a>
+							<a href="http://www.freewebsitetemplates.com/go/googleplus" class="googleplus"
+							aria-label="Google+">
+                            <span class="visually-hidden">Google+</span></a>
 						</li>
 					</ul>
 				</li>
@@ -104,8 +110,9 @@
 				<li class="last">
 					<h2>Follow Us By Email</h2>
 					<form action="index.html">
-						<input type="text" name="subscribe" value="Enter Your Email Here...">
-						<input type="submit" value="">
+						<label for="subscribe-email">Email address</label>
+						<input type="email" id="subscribe-email" name="subscribe" placeholder="Enter Your Email Here..." autocomplete="email">
+						<input type="submit" value="" aria-label="Subscribe by email">
 					</form>
 				</li>
 			</ul>
